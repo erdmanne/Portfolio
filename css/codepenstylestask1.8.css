@@ -1,0 +1,55 @@
+$primary-color-bg: #112055;
+$secondary-color-bg: #4f9d92;
+$primary-color-bg-lighter: lighten($primary-color-bg, 25%);
+$primary-color-bg-darker: darken($primary-color-bg, 10%);
+$primary-color-text: #fff;
+$secondary-color-text: #000;
+$grid-gap: 20px;
+$box-wrapper-padding: 20px;
+$box-border-radius: 5px;
+$box-padding: 10px;
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: $grid-gap;
+  padding: $box-wrapper-padding;
+  font-family: sans-serif;
+}
+
+.box_wrapper {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: $grid-gap;
+  padding: $box-wrapper-padding;
+  font-family: sans-serif;
+  :hover {
+    box-shadow: none;
+  }
+}
+%box-shared {
+  padding: $box-padding;
+  border-radius: $box-border-radius;
+  box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+  color: $primary-color-text;
+}
+.box-primary {
+  @extend %box-shared;
+  background-color: $primary-color-bg;
+}
+
+.box-primary-lighter {
+  @extend %box-shared;
+  background-color: $primary-color-bg-lighter;
+}
+
+.box-primary-darker {
+  @extend %box-shared;
+  background-color: $primary-color-bg-darker;
+}
+
+.box-secondary {
+  @extend %box-shared;
+  background-color: $secondary-color-bg;
+  color: $secondary-color-text;
+}
