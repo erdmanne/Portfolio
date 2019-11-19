@@ -9,7 +9,8 @@ hover: RGB(219, 202, 207)
  :root {
    --background-color:RGB(219, 202, 207);
    --primary-color: #E6E5E5;
-   --secondary-color: #742418;
+   --secondary-color: white;
+   --link-color: #742418;
    --visited-link-color: #231815;
    --active-link-color: #231815;
    --color:#231815;
@@ -25,9 +26,9 @@ hover: RGB(219, 202, 207)
    --h1-font-family:"Lobster"; cursive;
    --h1-font-size: 30px;
    --h1-font-weight: 700;
-   --h2-font-size: 24px;
+   --h2-font-size: 20px;
    --h2-font-weight: 700;
-   --h3-font-size: 18px;
+   --h3-font-size: 16px;
    --h3-font-weight: 700;
 
 }
@@ -145,7 +146,7 @@ font-size: 16px;
 }
 
 .navigation-list__item:hover{
-  background-color: RGB(219, 202, 207);
+  background-color: var(--secondary-color);
   padding: 10px;
   border-radius: 30px;
 }
