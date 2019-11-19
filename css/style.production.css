@@ -14,14 +14,14 @@ hover: RGB(219, 202, 207)
 body{
 font-family: "Raleway",sans-serif;
 font-weight: undefined;
-font-size: var(primary-font-size);
+font-size: var(--primary-font-size);
 line-height: 1.4;
 background-color: RGB(219, 202, 207);
 }
 
 
 h1{
-  font-family:"Abril Fatface";
+  font-family:"Lobster";
   font-size: 30px;
   font-weight: 700;
 }
@@ -90,7 +90,7 @@ button:focus,
   float: left;
   width: 200px;
   margin-right: 40px;
-border-radius: 20%;
+border-radius: 5%;
 }
 
 .profile{

@@ -22,7 +22,7 @@ hover: RGB(219, 202, 207)
    --grid-bg-color: #E6E5E5;
    --primary-font-size: 16px;
    --primary-font-weigth: 400;
-   --h1-font-family:"Abril Fatface";
+   --h1-font-family:"Lobster"; cursive;
    --h1-font-size: 30px;
    --h1-font-weight: 700;
    --h2-font-size: 24px;
@@ -100,7 +100,7 @@ button:focus,
   float: left;
   width: 200px;
   margin-right: 40px;
-  
+
 }
 
 .profile{
