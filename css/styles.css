@@ -92,7 +92,7 @@ button:focus,
 {cursor: pointer;
   opacity: 0.8;}
 
-  .button__secondary {
+  .button__2nd {
     background-color: var(--secondary-bg-color);
     color: var(--button-text-secondary);
   }
@@ -181,22 +181,23 @@ font-size: 16px;
 }
 
 .button_2nd {
-  display: inline-block;
+  display: block;
   width: 150px;
-  margin: 0 auto;
+  margin: 25px auto;
   text-align: center;
-  background-color: RGB(219, 202, 207);
+  background-color: var(--primary-color);
   border-radius: 30px;
-  padding:15px;
+  padding:5px;
   text-decoration: none;
   font-family: inherit;
   border-style: dashed;
-  border-color: white;
+  border-color: black;
 }
 
 .button_2nd:hover
 .button_2nd:focus{
   cursor:grab;
+  color: white;
   opacity: 80%;
   transition: 1s opacity;
 }
@@ -227,9 +228,10 @@ font-size: 16px;
 }
 
 .grid{
-  display: grid;
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
+
 }
 
 .grid__item:hover{
