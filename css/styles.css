@@ -205,7 +205,7 @@ font-size: 16px;
 .button_2nd:hover
 .button_2nd:focus{
   cursor:grab;
-  color: white;
+  color: black;
   opacity: 80%;
   transition: 1s opacity;
 }
